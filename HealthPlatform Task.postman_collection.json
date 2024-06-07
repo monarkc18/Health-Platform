@@ -1,0 +1,455 @@
+{
+	"info": {
+		"_postman_id": "286249df-ca52-466f-be99-560311400a8b",
+		"name": "HealthPlatform Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "35180007"
+	},
+	"item": [
+		{
+			"name": "Add Doctor API",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Delhi\",\r\n        \"email\": \"Mukesh@gmail.com\",\r\n        \"name\": \"Mukesh\",\r\n        \"phone_number\": \"9427845610\",\r\n        \"speciality\": \"ORTHOPEDIC\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/doctors/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Noida\",\r\n        \"email\": \"Rajesh@gmail.com\",\r\n        \"name\": \"Rajesh\",\r\n        \"phone_number\": \"9427845611\",\r\n        \"speciality\": \"GYNECOLOGY\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/doctors/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"city\": \"Faridabad\",\r\n        \"email\": \"Suresh@gmail.com\",\r\n        \"name\": \"Suresh\",\r\n        \"phone_number\": \"9414745612\",\r\n        \"speciality\": \"DERMATOLOGY\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/doctors/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Delhi\",\r\n        \"email\": \"Mahesh@gmail.com\",\r\n        \"name\": \"Mahesh\",\r\n        \"phone_number\": \"9421325613\",\r\n        \"speciality\": \"ENT\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/doctors/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Noida\",\r\n        \"email\": \"Ramesh@gmail.com\",\r\n        \"name\": \"Ramesh\",\r\n        \"phone_number\": \"9497845614\",\r\n        \"speciality\": \"ORTHOPEDIC\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/doctors/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"city\":\"Delhi\",\r\n    \"email\":\"Jindal@gmail.com\",\r\n    \"name\":\"Jindal\",\r\n    \"phone_number\":\"9445612456\",\r\n    \"speciality\":\"ENT\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/doctors/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"city\":\"Delhi\",\r\n    \"email\":\"Vikas@gmail.com\",\r\n    \"name\":\"Vikas\",\r\n    \"phone_number\":\"9427845612\",\r\n    \"speciality\":\"ORTHOPEDIC\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/doctors/add"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Add Patient API",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Delhi\",\r\n        \"email\": \"arjun.sharma1@gmail.com\",\r\n        \"name\": \"Arjun Sharma\",\r\n        \"phone_number\": \"9429475901\",\r\n        \"symptom\": \"ARTHRITIS\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/patients/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Delhi\",\r\n        \"email\": \"anita.verma2@gmail.com\",\r\n        \"name\": \"Anita Verma\",\r\n        \"phone_number\": \"9429475902\",\r\n        \"symptom\": \"BACKPAIN\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/patients/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Delhi\",\r\n        \"email\": \"rajesh.kumar3@gmail.com\",\r\n        \"name\": \"Rajesh Kumar\",\r\n        \"phone_number\": \"9429475903\",\r\n        \"symptom\": \"TISSUEINJURIES\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/patients/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"city\": \"Delhi\",\r\n        \"email\": \"meena.das4@gmail.com\",\r\n        \"name\": \"Meena Das\",\r\n        \"phone_number\": \"9429475904\",\r\n        \"symptom\": \"DYSMENORRHEA\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/patients/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"city\": \"Delhi\",\r\n        \"email\": \"vikram.patel5@gmail.com\",\r\n        \"name\": \"Vikram Patel\",\r\n        \"phone_number\": \"9429475905\",\r\n        \"symptom\": \"SKININFECTION\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/patients/add"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"city\":\"Ahmedabad\",\r\n    \"email\":\"Saket@gmail.com\",\r\n    \"name\":\"Saket\",\r\n    \"phone_number\":\"9429475940\",\r\n    \"symptom\":\"ARTHRITIS\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/patients/add"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Suggest Doctor API",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/patients/suggestdoctor/:pid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"patients",
+								"suggestdoctor",
+								":pid"
+							],
+							"variable": [
+								{
+									"key": "pid",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/patients/suggestdoctor/:pid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"patients",
+								"suggestdoctor",
+								":pid"
+							],
+							"variable": [
+								{
+									"key": "pid",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/patients/suggestdoctor/:pid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"patients",
+								"suggestdoctor",
+								":pid"
+							],
+							"variable": [
+								{
+									"key": "pid",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/patients/suggestdoctor/:pid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"patients",
+								"suggestdoctor",
+								":pid"
+							],
+							"variable": [
+								{
+									"key": "pid",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Remove Doctor API",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/doctors/:docid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doctors",
+								":docid"
+							],
+							"variable": [
+								{
+									"key": "docid",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/doctors/:docid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doctors",
+								":docid"
+							],
+							"variable": [
+								{
+									"key": "docid",
+									"value": "102"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Remove Patient API",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/patients/:pid",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"patients",
+								":pid"
+							],
+							"variable": [
+								{
+									"key": "pid",
+									"value": "52"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
